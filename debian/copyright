@@ -1,0 +1,39 @@
+This is the Debian GNU/Linux r-cran-adapt package of lpSolve, a
+package for GNU R that provides functions for solving linear, integer
+and mixed integer programs. lpSolve was written by Michel Berkelaar
+and others and is maintained by Sam Buttrey.
+
+This package was created by Dirk Eddelbuettel <edd@debian.org>. The
+sources were downloaded from CRAN at 
+	http://cran.r-project.org/src/contrib/
+
+The package was renamed from its upstream name 'lpSolve' to
+'r-cran-lpsolve' to fit the pattern of CRAN (and non-CRAN) packages for
+R.
+
+Copyright (C) 1998 - 2008 Michel Berkelaar and Sam Buttrey
+Portions Copyright (C) 1998-2001 by the University of Florida.
+Portions Copyright (C) 1984, 1989, 1990 Free Software Foundation, Inc.
+
+License: LGPL v2
+
+On a Debian GNU/Linux system, the LGPL license (version 2) is included
+in the file /usr/share/common-licenses/LGPL-2.
+
+For reference, the upstream DESCRIPTION [indented two spaces]
+file is included below:
+
+  Package: lpSolve
+  Version: 5.5.8
+  Date: 2007-09-14
+  Title: Interface to Lp_solve v. 5.5 to solve linear/integer programs
+  Author: Michel Berkelaar and others
+  Maintainer: Sam Buttrey <buttrey@nps.navy.mil>
+  Description: Lp_solve is freely available (under LGPL 2) software for
+      solving linear, integer and mixed integer programs. In this implementation
+      we supply a "wrapper" function in C and some R functions that solve
+      general linear/integer problems, assignment problems, and transportation
+      problems. This version calls lp_solve version 5.5.
+  License: LGPL version 2
+  Packaged: Fri Sep 14 11:14:52 2007; sebuttre
+
